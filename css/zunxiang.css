@@ -1,0 +1,185 @@
+/** 清除内外边距 **/
+body,h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+img{
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+
+
+
+
+/*-------------content-------------*/
+
+.content{
+	width: 100%;
+	overflow: hidden;
+}
+.wrap_content-bg{
+	width: 100%;
+	height: 79px;
+	background: #050505;
+}
+.content-one{
+	position: relative;
+	width: 1100px;
+	height: 79px;
+	margin: 0 auto;
+}
+.content-bg{
+	width: 1100px;
+	height: 79px;
+}
+.content-bg img{
+	width: 1100px;
+	height: 79px;
+}
+.content-bg-1{
+	position: absolute;
+	left: 22px;
+	top: 12px;
+}
+.content-bg-1 a{
+	font-size: 12px;
+	color: #637549;
+}
+
+/*--------content-two-left----------*/
+
+.wrap_content-two{
+	width: 100%;
+	height: 34px;
+	background: #875c17;
+}
+.content-two{
+	width: 1100px;
+	height: 34px;
+	background: #875c17;
+	margin: 0 auto
+}
+.content-two-left{
+	width: 400px;
+	height: 34px;
+	float: left;
+}
+.content-two-left ul{
+	width: 400px;
+	height: 34px;
+	
+}
+.content-two-left ul li{
+	float: left;
+}
+.content-two-left ul li a{
+	display: inline-block;
+	width: 100px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 12px;
+	color: #f4daab;
+}
+.content-two-left ul li:hover a{
+	background: #674304;
+}
+.content-two-right{
+	float: right;
+}
+
+/*-----------carousel-------------*/
+#carousel{
+	position: relative;
+	width: 100%;
+	height: 637px;
+	margin: 0 auto;
+}
+#bigpic{
+	width: 100%;
+	height: 637px;
+	
+}
+#bigpic li{
+  	width: 100%;
+	height: 637px;
+	position: absolute;
+}
+#bigpic li img{
+  	width: 100%;
+	height: 637px;
+	position: absolute;
+}
+
+.prev,.next {
+	width: 65px;
+	height: 129px;
+}
+
+.prev {
+	position: absolute;
+    left: 15%;
+    top: 50%;
+}
+.next {
+	position: absolute;
+    right: 15%;
+    top: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

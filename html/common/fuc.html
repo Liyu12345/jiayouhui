@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/head.css" type="text/css"/>
+		
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script src="../js/index.js"></script>
+	<script>
+		$(function(){
+			$('.fuc').click(function(){
+				
+				$('body,html').animate({scrollTop:0},1000); 
+				return false; 
+			})
+			
+			$('.packet').hover(function(){
+				$('.ewm2new').show()
+			},function(){
+				$('.ewm2new').hide()
+			})
+			
+			$('.wechat').hover(function(){
+				$('.ewm').show()
+			},function(){
+				$('.ewm').hide()
+			})
+			
+		})
+	</script>	
+
+	</head>
+	<body>
+	<div class="wrap_fuc">
+		<div class="fuc">
+			<ul>
+				<li class="packet"></li>
+				<li class="wechat"></li>
+				<li class="overhead"></li>
+			</ul>
+			
+			<div class="ewm2new"><img src="../img/ewm2new.jpg" /></div>
+			<div class="ewm"><img src="../img/ewm.jpg" /></div>
+		
+			</div>
+	
+		<div class="call"><a href="#"><img src="../img/10.jpg" /></a></div>
+	</div>
+	
+	</body>
+</html>

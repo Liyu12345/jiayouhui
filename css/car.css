@@ -1,0 +1,331 @@
+
+
+body,h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+.clear{
+	clear:both;
+	height:0;
+	overflow:hidden;
+}
+
+
+/*******************内容*******************/
+
+.centert{
+	width: 1142px;
+	overflow: hidden;
+	padding-bottom: 100px;
+	margin: 0 auto;
+}
+
+
+/*******************centert-top*********************/
+.centert-top{
+	width: 1140px;
+	height: 55px;
+	line-height: 55px;
+	font-size: 12px;
+	color: black;
+	background: url(../img/baoyou.jpg) no-repeat 0 center;
+	text-indent: 48px;
+	margin: 0 auto;
+}
+
+/*********************centert-hide**********************/
+.centert-hide{
+	width: 1140px;
+	overflow: hidden;
+	margin: 0 auto;
+	display: none;
+}
+
+.centert-show{
+	width: 1145px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+
+.centert-hide img{
+	width: 250px;
+	height: 200px;
+	margin-left: 475px;
+	margin-top: 100px;
+}
+.centert-hide p{
+	width: 470px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 12px;
+	color: black;
+	margin-left: 400px;
+}
+.centert-hide p a{
+	font-size: 12px;
+	color: blue;
+}
+.centert-hide p a:hover{
+	color: red;
+}
+
+
+/**************centert_ul1*****************/
+.centert_ul1{
+	width: 1140px;
+	height: 44px;
+	border: 1px solid #d6d6d6;
+	background: #f1f1f1;
+}
+.centert_ul1 li span{
+	height: 44px;
+	line-height: 44px;
+	font-size: 12px;
+	color: black;
+}
+
+.centert_ul1-one{
+	display: inline-block;
+	width: 100px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+}
+
+.centert_ul1-two{
+	display: inline-block;
+	width: 402px;
+	line-height: 44px;
+	text-align: center;
+}
+
+.centert_ul1-three{
+	display: inline-block;
+	width: 312px;
+	line-height: 44px;
+	text-align: center;
+}
+
+.centert_ul1-four{
+	display: inline-block;
+	width: 88px;
+	line-height: 44px;
+	text-align: center;
+}
+
+.centert_ul1-five{
+	display: inline-block;
+	width: 135px;
+	line-height: 44px;
+	text-align: center;
+}
+
+.centert_ul1-six{
+	display: inline-block;
+	width: 63px;
+	line-height: 44px;
+	text-align: center;
+}
+
+
+
+/******************centert_ul2*********************/
+.centert_ul2{
+	width: 1140px;
+	overflow: hidden;
+	border: 1px solid #d6d6d6;
+}
+
+.centert_ul2 li{
+	width: 1140px;
+	height: 116px;
+	line-height: 116px;
+	border-bottom: 1px solid #d6d6d6;
+	/*float: left;*/
+}
+.centert_ul2 li input{
+	position: relative;
+	left: 25px;
+	top: -35px;
+}
+.centert_ul2 li img{
+	width: 84px;
+	height: 84px;
+	padding-top: 16px;
+	padding-left: 62px;
+}
+.centert_ul2 li span.tit{
+	display: inline-block;
+	width: 300px;
+	font-size: 12px;
+	color: #333333;
+	position: relative;
+	left: 10px;
+	top: -35px;
+}
+.centert_ul2 li span.pri{
+	display: inline-block;
+	width: 88px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 16px;
+	color: red;
+	position: relative;
+	left: 120px;
+	top: -35px;
+}
+
+.centert_ul2 li span.deletePrice{
+	display: inline-block;
+	font-size: 12px;
+	color: black;
+	text-decoration: line-through;
+	position: relative;
+	left: 120px;
+	top: -35px;
+}
+.centert_ul2 li span.num{
+	display: inline-block;
+	font-size: 16px;
+	position: relative;
+	left: 245px;
+	top: -35px;
+}
+.centert_ul2 li span.pri1{
+	display: inline-block;
+	width: 88px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 16px;
+	color: black;
+	position: relative;
+	left: 310px;
+	top: -35px;
+}
+.centert_ul2 li a{
+	height: 16px;
+	width: 50px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 16px;
+	color: black;
+	position: relative;
+	left: 355px;
+	top: -35px;
+}
+
+.centert_ul2 li a:hover{
+	color: red;
+}
+
+
+/***********************centert-bottom***********************/
+
+.centert-bottom{
+	width: 1140px;
+	height: 102px;
+	position: relative;
+}
+
+.centert-bottom-left{
+	width: 200px;
+	height: 102px;
+	float: left;
+}
+.centert-bottom p{
+	height: 102px;
+	line-height: 102px;
+	font-size: 12px;
+	color: black;
+	
+}
+.centert-bottom-1{
+	width: 53px;
+	height: 102px;
+	line-height: 102px;
+	float: left;
+}
+.centert-bottom-1 input{
+	margin-right: 13px;
+	
+}
+
+.centert-bottom-2{ 
+	width: 98px;
+	float: left;
+}
+.centert-bottom-2 span{ 
+	width: 98px;
+	padding-left: 22px;
+}
+.centert-bottom-2 span:hover{
+	color: red;
+}
+
+.centert-bottom-right{
+	height: 102px;
+	float: right;
+}
+.centert-bottom-3{
+	width: 176px;
+	color: #999999;
+	text-align: center;
+	float: left;
+}
+
+.centert-bottom-3 span{
+	color: red;
+}
+
+.centert-bottom-4{
+	width: 266px;
+	height: 52px;
+	font-size: 12px;
+	text-align: center;
+	color: #999999;
+	float: left;
+}
+.centert-bottom-4 span{
+	font-size: 24px;
+	color: #dc0f50;
+}
+
+.centert-bottom-5 {
+	padding-top: 23px;
+	width: 120px;
+	height: 102px;
+	float: left;
+}
+.centert-bottom-5 span{
+	width: 120px;
+	height: 52px;
+	line-height: 52px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	background: #dc0f50;
+	float: left;
+}
+.centert-bottom-5 span:hover{
+	opacity: 0.8;
+}
+
+
+
+
+
+

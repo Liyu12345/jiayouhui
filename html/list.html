@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<link rel="stylesheet" href="../css/index.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/head.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/fooder.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/list.css" type="text/css"/>
+		
+		
+		<script src="../js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/list.js"></script>
+		<script src="../js/gengduo.js"></script>
+		
+		<script src="../js/common.js"></script>
+		
+	</head>
+	<body>
+		
+	<!---------------头部---------------->
+		<div id="main_head">
+			
+		</div>
+		
+		
+	<div class="wrap_contert">	
+		<div class="contert">
+			
+			<div class="contert-left">
+				<div class="contert-left-one">
+					<a href="#">全部商品</a>
+				</div>
+				
+				<div class="contert-left-two">
+					<div class="contert-left-two-top">
+						<span class="contert-left-two-top-left">分类</span>
+						<ul class="contert-left-two-list-top">
+							<li><a href="#">全部</a></li>
+							<li><a href="#">女装</a></li>
+							<li><a href="#">内衣</a></li>
+							<li><a href="#">男装 </a></li>
+							<li><a href="#">服装服饰-电视热购</a></li>
+							<li><a href="#">服装皮具</a></li>
+							<li><a href="#">女鞋</a></li>
+							<li><a href="#">家居服</a></li>
+							<li><a href="#">男鞋</a></li>
+							<li><a href="#">童装</a></li>
+							<li><a href="#">户外用品</a></li>
+							<li><a href="#">箱包配饰-电视热销</a></li>
+							<li><a href="#">运动健康-电视热销</a></li>
+							<li><a href="#">潮流女包</a></li>
+							<li><a href="#">美妆个护-电视热销</a></li>
+						</ul>
+						<p class="contert-left-two-top-right">
+							<a href="#">
+								<span class="contert-left-two-top-right-1">更多&gt;</span>
+								<span class="contert-left-two-top-right-2">&lt;收起</span>
+							</a>
+						</p>
+					</div>
+					
+					<div class="contert-left-two-bottom">
+						<span class="contert-left-two-top-left">品牌</span>
+						<ul class="contert-left-two-list-bottom">
+							<li><a href="#">全部</a></li>
+							<li><a href="#">beauty said</a></li>
+							<li><a href="#">迪芬娜</a></li>
+							<li><a href="#">八段锦 </a></li>
+							<li><a href="#">bee armor</a></li>
+							<li><a href="#">一杯心语</a></li>
+							<li><a href="#">傻博尔</a></li>
+							<li><a href="#">轩品暖</a></li>
+							<li><a href="#">格子廊</a></li>
+							<li><a href="#">峰行</a></li>
+							<li><a href="#">贝王</a></li>
+							<li><a href="#">蓝堤儿</a></li>
+							<li><a href="#">瑅艾</a></li>
+							<li><a href="#">猫人</a></li>
+							<li><a href="#">谜团</a></li>
+						</ul>
+						<p class="contert-left-two-top-right">
+							<a href="#">
+								<span class="contert-left-two-top-right-3">更多&gt;</span>
+								<span class="contert-left-two-top-right-4">&lt;收起</span>
+							</a>
+						</p>
+					</div>
+				</div>
+				
+				
+				<div class="contert-left-three">
+					<div class="contert-left-three-left">
+						<ul>
+							<li><a href="#">综合</a></li>
+							<li><a href="#">销量</a></li>
+							<li><a href="#">人气</a></li>
+							<li><a href="#">价格</a></li>
+						</ul>
+					</div>
+					
+					<div class="contert-left-three-right">
+						
+						
+					</div>
+				</div>
+				
+				
+				
+				<!------------商品列表--------------->
+				<div id="list">
+					<ul>
+						
+					</ul>
+				</div>
+				
+				
+				<!------------上一页、下一页--------------->
+				<div class="alist">
+					<!--<a href="goodlist.html?1">跳转到第一页</a>
+					<a href="goodlist.html?2">跳转到第二页</a>
+					<a href="goodlist.html?3">跳转到第三页</a>
+					<a href="goodlist.html?4">跳转到第四页</a>-->
+					<ul class="alist-list">
+						<li class="alist-list-pgup"><a href="#">上一页</a></li>
+						<li class="alist-list-one"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">...</a></li>
+						<li><a href="#">102</a></li>
+						<li><a href="#">103</a></li>
+						<li><a href="#">下一页</a></li>
+					</ul>
+			
+				</div>
+				
+			</div>
+			
+			
+			<!-----------------热销推荐---------------------->
+			<div class="contert-right">
+				<h3>热销推荐</h3>
+				<div id="list2">
+					<ul>
+						<!--<li></li>-->
+					</ul>
+				</div>
+				
+			</div>
+			
+			<!---------------------猜你喜欢------------------------->
+			<div class="clear"></div>            <!--清除浮动-->
+			
+			
+			<div class="contert-three">
+				<h3>猜你喜欢</h3>
+			</div>
+			
+			
+			<!---------------------小轮播图--------------------------->
+			
+			<div class="contert-four">
+				
+				<div class="contert-four-page"><span>&lt;</span></div>
+				
+				<ul class="contert-four-list">
+					<!--<li><a href="#"><img src=""/></a></li>-->
+				</ul>
+				
+				<div class="contert-four-next"><span>&gt;</span></div>
+				
+			</div>
+			
+			<div class="contert-five">
+				<div class="contert-five-search">
+					重新搜索<input type="text" name="" class="contert-five-search-txt" id="" value="" />
+					<input type="button" name="" class="contert-five-search-btn" id="" value="搜索" />
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>	
+	
+	
+	<!---------------底部---------------->
+    <div id="fooder">
+    	
+    </div>
+	
+	
+	
+	</body>
+</html>

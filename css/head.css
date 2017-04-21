@@ -1,0 +1,294 @@
+/** 清除内外边距 **/
+body,h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+
+/*body{
+	height: 1200px;
+	font-size:12px;
+}*/
+ul li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.clear{
+	clear:both;
+	height:0;
+	overflow:hidden;
+}
+
+.head,.header,.nav{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*---------head--------------*/
+.wrap_head{
+	width: 100%;
+	background: #fff;
+}
+.head {
+	height: 30px;
+	font-size: 12px;
+	color: #343841;
+}
+
+.head_p {
+	width: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 8px;
+}
+.head_p a{
+	color: #343841;
+}
+.head_p a:hover{
+	color: orange;
+}
+
+.head_right {
+	/*width: 481px;*/
+	height: 30px;
+	float: right;
+}
+.head_right .ul_1 {
+	/*width: 338px;*/
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+
+.head_right .ul_1 li {
+	float: left;
+	padding-right: 6px;
+}
+.head_right .ul_1 li a{
+	color: #343841;
+}
+.head_right .ul_1 li a:hover{
+	color: orange;
+}
+
+.head_right .ul_2 {
+	/*width: 143px;*/
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	
+}
+
+.head_right .ul_2 li{
+	float: left;
+	padding-left: 12px;
+	padding-right: 8px;
+}
+.head_right .ul_2 li a{
+	color: #343841;
+}
+.head_right .ul_2 li span{
+	color: orangered;
+}
+.head_right .ul_2 li a:hover{
+	color: orange;
+}
+
+
+/*---------header--------------*/
+.wrap_header{
+	width: 100%;
+	background: #343841;
+}
+.header{
+	height: 100px;
+	background: #343841;
+}
+
+
+.jyh_logo-new{
+	width: 156px;
+	height: 100px;
+	float: left;
+}
+.jyh_logo-new img{
+	padding-top: 20px;
+}
+
+
+.header_center{
+	width: 489px;
+	height: 100px;
+	margin-left: 142px;
+	float: left;
+}
+.header_center ul li{
+	height: 100px;
+	line-height: 100px;
+	padding-right: 23px;
+	float: left;
+}
+.header_center ul li a{
+	font-size: 22px;
+	color: #fff;
+	float: left;
+}
+.header_center ul li a:hover{
+	color: orangered;
+}
+
+.header_bottom{
+	width: 377px;
+	height: 41px;
+	float: right;
+	background: red;
+	margin-top: 30px;
+}
+.header_bottom_input-1{
+	width: 277px;
+	height: 41px;
+	border: 0;
+	font-size: 14px;
+	text-indent: 7px;
+	color: #999999;
+	float: left;
+}
+.header_bottom_button{
+	width: 100px;
+	height: 41px;
+	border: 0;
+	font-size: 16px;
+	color: #fff;
+	background: #ff7d01;
+	float: left;
+}
+
+
+
+/*---------nav--------------*/
+.wrap_nav{
+	width: 100%;
+	background: #ff7d01;
+}
+.nav{
+	height: 30px;
+	/*background: #ff7d01;*/
+}
+.nav ul{
+	height: 30px;
+	padding-left: 8px;
+}
+.nav ul li{
+	
+	padding-right: 34px;
+	float: left;
+}
+.nav ul li a{
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #fff;
+}
+.nav ul li a:hover{
+	text-decoration: underline;
+}
+
+
+/*-----------fuc------------*/
+.fuc{
+	width: 100px;
+	overflow: hidden;
+	position: fixed;
+	right: 5px;
+	top: 35%;
+	z-index: 100;
+}
+.fuc ul{
+	margin-left: 20px;
+	width: 61px;
+	height: 234px;
+}
+.fuc ul li{
+	background: url(../img/fuc.png) no-repeat 0 0;
+}
+.fuc ul li.packet {
+	width: 61px;
+	height: 105px;
+	background-position: -4px 0px;
+}
+.fuc ul li.packet:hover{
+	background-position: -77px 0px;
+}
+
+.fuc ul li.wechat {
+	width: 61px;
+	height: 65px;
+	background-position: -4px -105px;
+}
+.fuc ul li.wechat:hover{
+	background-position: -77px -105px;
+}
+
+.fuc ul li.overhead {
+	width: 61px;
+	height: 64px;
+	background-position: -4px -234px;
+}
+.fuc ul li.overhead:hover{
+	background-position: -77px -234px;
+}
+
+
+/*------------call-----------*/
+.call{
+	position: fixed;
+	right: 10px;
+	bottom: 5%;
+	/*margin-top: 20px;*/
+	width: 100px;
+	height: 147px;
+	z-index: 101;
+}
+
+.ewm2new{
+	width: 230px;
+	height: 230px;
+	position: fixed;
+	right: 90px;
+	top: 30%;
+	display: none;
+}
+.ewm2new img{
+	width: 230px;
+	height: 230px;
+}
+.ewm{
+	width: 230px;
+	height: 230px;
+	position: fixed;
+	right: 90px;
+	top: 40%;
+	display: none;
+}
+.ewm img{
+	width: 230px;
+	height: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

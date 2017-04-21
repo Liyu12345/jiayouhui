@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+			//	document.cookie = "";
+			
+			//第一个参数 是cookie名称  通过名称可以修改和设置cookie
+			//第二个参数  内容
+				$.cookie('class1','1609',{expires:7 , path:"/"});
+				console.log($.cookie('class'));
+				
+				//使用cookie 实现购物车
+			})
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

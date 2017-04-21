@@ -1,0 +1,227 @@
+/** 清除内外边距 **/
+body,h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+
+/*body{
+	height: 1200px;
+	font-size:12px;
+}*/
+ul li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.clear{
+	clear:both;
+	height:0;
+	overflow:hidden;
+}
+
+
+
+.wrap_content{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+}
+
+
+
+.register{
+	padding-bottom: 100px;
+	width: 1182px;
+	height: 436px;
+	background: #fff;
+	position: relative;
+	margin: 0 auto;
+}
+
+.register-left{
+	width: 448px;
+	height: 336px;
+	position: absolute;
+	left: 76px;
+	top: 92px;
+	background: #fff;
+}
+.register-left{
+	width: 448px;
+	height: 336px;
+}
+
+.register-right{
+	width: 449px;
+	height: 375px;
+	position: absolute;
+	left: 680px;
+	top: 62px;
+	background: #fff;
+}
+
+.register-right ul {
+	width: 449px;
+	height: 36px;
+	background: #fff;
+}
+.register-right ul li{
+	margin: 0 76px;
+	float: left;
+}
+.register-right ul li a{
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	font-size: 18px;
+	color: #dc0f50;
+}
+
+ul li.register-right-list1 a{
+	color: #dc0f50;
+	border-bottom: 2px solid #dc0f50;
+}
+
+ul li.register-right-list2 a{
+	color: #666695;
+	border-bottom: 0;
+}
+
+
+
+
+/*------------------表单-----------------*/
+.register-right-form1 {
+	width: 447px;
+	height: 334px;
+	position: absolute;
+	left: 0;
+	top: 38px;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+}
+
+.register_form{
+	position: absolute;
+	left: 70px;
+	top: 30px;
+}
+.remind{
+	width: 303px;
+	height: 38px;
+	border: 1px solid #d6d6d6;
+	display: none;
+}
+.remind1{
+	width: 303px;
+	height: 38px;
+	border: 1px solid #d6d6d6;
+	color: red;
+	display: none;
+}
+
+.re_input{
+	width: 303px;
+	height: 38px;
+	border: 1px solid #d6d6d6;
+	text-indent: 10px;
+}
+#phone1{
+	margin-bottom: 18px;
+}
+
+.register_form-one p{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background: green;
+	/*display: none;*/
+}
+.register_form-two p{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background: green;
+	/*display: none;*/
+}
+
+#checkbox1{
+	widows: 102px;
+	height: 12px;
+	font-size: 12px;
+	color: #666666;
+	background: #fff;
+}
+
+.register_form-three{
+	width: 303px;
+	height: 38px;
+	border: 1px solid #d6d6d6;
+	background: #fff;
+}
+.register_form-four{
+	display: inline-block;
+	width: 303px;
+	height: 12px;
+	font-size: 12px;
+	color: #666666;
+}
+
+.register_form-four-1{
+	/*float: left;*/
+}
+.register_form-four-2{
+	font-size: 14px;
+	color: #666666;
+	
+}
+.register_form-four-2:hover{
+	color: red;
+}
+.register_form-four-3{
+	font-size: 14px;
+	color: #666666;
+	float: right;
+}
+.register_form-four-3:hover{
+	color: red;
+}
+
+.entry{
+	width: 305px;
+	height: 40px;
+	font-size: 18px;
+	color: #fff;
+	background: #dc0f50;
+	border: 0;
+}
+.entry:hover{
+	background: red;
+}
+
+
+
+.register-right-form2 {
+	width: 447px;
+	height: 334px;
+	position: absolute;
+	left: 0;
+	top: 38px;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	display: none;
+}
+
+
+
+
+
+
+
+
+

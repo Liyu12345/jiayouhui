@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/zunxiang.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/fooder.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/head.css" type="text/css"/>
+		
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script src="../js/zunxiang.js"></script>
+		
+		<script>
+			$(function(){
+				$('#fooder').load('common/fooder.html .com_fooder',function(){})
+				$('#wrap_fuc').load('fuc.html .wrap_fuc',function(){
+					$('.fuc').click(function(){
+						
+						$('body,html').animate({scrollTop:0},1000); 
+						return false; 
+					})
+					
+					$('.packet').hover(function(){
+						$('.ewm2new').show()
+					},function(){
+						$('.ewm2new').hide()
+					})
+					
+					$('.wechat').hover(function(){
+						$('.ewm').show()
+					},function(){
+						$('.ewm').hide()
+					})
+				})
+			})
+		</script>
+		
+	</head>
+	<body>
+		
+		
+		<!------------content---------------->
+	<div class="content">
+		
+		<div class="wrap_content-bg">
+			<div class="content-one">
+				<div class="content-bg"><img src="../img/h-head-bg.jpg" /></div>
+				<div class="content-bg-1"><a href="index.html">&lt;返回首页</a></div>
+			</div>
+		</div>	
+		
+		<div class="wrap_content-two">
+			<div class="content-two">
+				<div class="content-two-left">
+					<ul>
+						<li><a href="#">本期主打</a></li>
+						<li><a href="#">尊享精选</a></li>
+						<li><a href="#">会员制度</a></li>
+						<li><a href="#">关于我们</a></li>
+					</ul>
+				</div>
+				<div class="content-two-right">
+					<img src="../img/h-tel.png" />
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="carousel">
+	        <ul id="bigpic">
+	            <li><a href="#"><img src="../img/37.jpg"></a></li>
+	            <li><a href="#"><img src="../img/38.jpg"></a></li>
+	        </ul>
+	        
+	        <a href="#" class="prev"><img src="../img/h-btn-left.png"></a>
+    		<a href="#" class="next"><img src="../img/h-btn-right.png"></a>
+       </div>
+	       
+	</div>
+	
+	
+	<!-----------wrap_fuc------------>
+	<div id = "wrap_fuc">
+		
+	</div>
+	
+	
+	<!---------------fooder---------------->
+    <div id="fooder">
+    	
+    </div>
+	</body>
+</html>
